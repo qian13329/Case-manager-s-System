@@ -1,0 +1,26 @@
+[
+    {
+        "staffNum": "10011",
+        "staffName": "陳佳伶",
+        "staffSex": "女",
+        "staffBirthday": "1997-8-19",
+        "staffID": "L212121212",
+        "staffPhone": "0900000000",
+        "staffMail": "aaa@gmail.com",
+        "staffAddress": "台中市豐原區中山路三段18號",
+        "staffPassword": "000000",
+        "identify":"個管師"
+    },
+    {
+        "staffNum": "10012",
+        "staffName": "安詳",
+        "staffSex": "男",
+        "staffBirthday": "1988-10-01",
+        "staffID": "K123454523",
+        "staffPhone": "0911111111",
+        "staffMail": "bbb@gmail.com",
+        "staffAddress": "這名字一聽就很適合住天堂跟上帝交流",
+        "staffPassword": "111111",
+        "identify":"管理員"
+    }
+]

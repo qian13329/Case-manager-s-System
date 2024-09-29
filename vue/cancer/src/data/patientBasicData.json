@@ -1,0 +1,67 @@
+[
+    {
+        "pID": "L212121212",
+        "pNum": "12967",
+        "pProfession": "學生",
+        "pMarriage": "離婚",
+        "pChild": "無",
+        "pFamilySize": "4人",
+        "pReligion": "佛教",
+        "pEdu": "國小",
+        "pDisease": "心臟病",
+        "pDrugs": "嗎啡",
+        "pSport": "慢跑1km/天"
+    },
+    {
+        "pID": "L212121213",
+        "pNum": "12968",
+        "pProfession": "哲學家",
+        "pMarriage": "已婚",
+        "pChild": "6人",
+        "pFamilySize": "4人",
+        "pReligion": "佛教",
+        "pEdu": "博士",
+        "pDisease": "無",
+        "pDrugs": "安非他命",
+        "pSport": "怕周球"
+    },
+    {
+        "pID": "L112121215",
+        "pNum": "12969",
+        "pProfession": "社畜",
+        "pMarriage": "離婚",
+        "pChild": "1人",
+        "pFamilySize": "1人",
+        "pReligion": "天主教",
+        "pEdu": "大學",
+        "pDisease": "無",
+        "pDrugs": "普拿疼",
+        "pSport": "無"
+    },
+    {
+        "pID": "L112121216",
+        "pNum": "12970",
+        "pProfession": "科學家",
+        "pMarriage": "離婚",
+        "pChild": "1人",
+        "pFamilySize": "1人",
+        "pReligion": "基督教",
+        "pEdu": "碩士",
+        "pDisease": "憂鬱症",
+        "pDrugs": "安眠藥",
+        "pSport": "無"   
+    },
+    {
+        "pID": "L112121217",
+        "pNum": "12971",
+        "pProfession": "保險業務員",
+        "pMarriage": "未婚",
+        "pChild": "0人",
+        "pFamilySize": "3人",
+        "pReligion": "妙禪",
+        "pEdu": "大學",
+        "pDisease": "手痛",
+        "pDrugs": "無",
+        "pSport": "仰臥起坐5下/天"   
+    }
+]

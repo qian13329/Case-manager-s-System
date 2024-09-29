@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "dayjs": "^1.11.6",
+    "highcharts": "^10.2.1",
+    "highcharts-vue": "^1.4.0",
+    "js-cookie": "^3.0.1",
+    "v-calendar": "^2.4.1",
+    "vconsole": "^3.15.0",
+    "vue-chartjs": "^4.1.1",
+    "vue-sweet-calendar": "^0.4.1",
+    "vue2-event-calendar": "^1.1.81"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.2"
+  }
+}

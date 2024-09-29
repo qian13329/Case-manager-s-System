@@ -1,0 +1,11 @@
+{
+    "accounts": [
+      {
+        "id": 1,
+        "category": "伙食",
+        "amount": "50",
+        "date": 1602028800000,
+        "description": "早餐"
+      }
+    ]
+  }

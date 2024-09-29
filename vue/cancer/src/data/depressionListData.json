@@ -1,0 +1,32 @@
+[
+    {
+        "pID":"L212121212",
+        "pNum":"12967",
+        "dpDegree": "輕度",
+        "dpSymptom": "一直哭"
+    },
+    {
+        "pID":"L212121213",
+        "pNum":"12968",
+        "dpDegree": "中度",
+        "dpSymptom": "幻聽"
+    },
+    {
+        "pID":"L212121215",
+        "pNum":"12969",
+        "dpDegree": "輕度",
+        "dpSymptom": "易怒"
+    },
+    {
+        "pID":"L212121216",
+        "pNum":"12970",
+        "dpDegree": "重度",
+        "dpSymptom": "尋短"
+    },
+    {
+        "pID":"L212121217",
+        "pNum":"12971",
+        "dpDegree": "中度",
+        "dpSymptom": "自殘"
+    }
+]

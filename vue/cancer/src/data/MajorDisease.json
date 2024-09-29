@@ -1,0 +1,62 @@
+[
+    {
+        "pID": "L212121212",
+        "pNum": "12967",
+        "disease": "大腸癌",
+        "period": "二",
+        "size": "2.5",
+        "CA": "是",
+        "CASpace": "肝",
+        "treat": "標靶治療",
+        "drugs": "Sutent",
+        "drugAllergy": "無"
+    },
+    {
+        "pID": "L212121213",
+        "pNum": "12968",
+        "disease": "胃癌",
+        "period": "三",
+        "size": "1.5",
+        "CA": "是",
+        "CASpace": "肝",
+        "treat": "標靶治療",
+        "drugs": "Sutent",
+        "drugAllergy": "無"
+    },
+    {
+        "pID": "L112121215",
+        "pNum": "12969",
+        "disease": "乳癌",
+        "period": "一",
+        "size": "0.5",
+        "CA": "否",
+        "CASpace": "無",
+        "treat": "藥物治療",
+        "drugs": "無",
+        "drugAllergy": "無"
+    },
+    {
+        "pID": "L112121216",
+        "pNum": "12970",
+        "disease": "攝護腺癌",
+        "period": "一",
+        "size": "0.3",
+        "CA": "否",
+        "CASpace": "無",
+        "treat": "標靶治療",
+        "drugs": "無",
+        "drugAllergy": "無"
+    },
+    {
+        "pID": "L112121217",
+        "pNum": "12971",
+        "disease": "胰臟癌",
+        "period": "三",
+        "size": "2.8",
+        "CA": "否",
+        "CASpace": "無",
+        "treat": "標靶治療",
+        "drugs": "無",
+        "drugAllergy": "無"
+    }
+]

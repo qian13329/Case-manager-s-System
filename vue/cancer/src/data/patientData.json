@@ -1,0 +1,57 @@
+[
+    {
+        "pNum": "12967",
+        "pName": "劉珍妮",
+        "pSex": "女",
+        "pID": "L212121212",
+        "room": "N",
+        "pAge": "36",
+        "pBirthday": "1986",
+        "doctor": "姜天才",
+        "pDoctorSay": "早安午安晚安，珍妮你好嗎"
+    },
+    {
+        "pNum": "12968",
+        "pName": "許微微",
+        "pSex": "女",
+        "pID": "L212121213",
+        "room": "N",
+        "pAge": "36",
+        "pBirthday": "1986",
+        "doctor": "姜天才",
+        "pDoctorSay": "這個抬去種"
+    },
+    {
+        "pNum": "12969",
+        "pName": "金發財",
+        "pSex": "男",
+        "pID": "L112121215",
+        "room": "N",
+        "pAge": "33",
+        "pBirthday": "1989",
+        "doctor": "姜天才",
+        "pDoctorSay": "要有心理準備"
+    },
+    {
+        "pNum": "12970",
+        "pName": "翟隆隆",
+        "pSex": "男",
+        "pID": "L112121216",
+        "room": "207",
+        "pAge": "33",
+        "pBirthday": "1969",
+        "doctor": "郝聰明",
+        "pDoctorSay": "時間就是金錢，但你沒有錢"
+    },
+    {
+        "pNum": "12971",
+        "pName": "曾愛國",
+        "pSex": "男",
+        "pID": "L112121217",
+        "room": "213",
+        "pAge": "56",
+        "pBirthday": "1946",
+        "doctor": "郝聰明",
+        "pDoctorSay": "時間就是金錢，但你沒有錢"
+    }
+]

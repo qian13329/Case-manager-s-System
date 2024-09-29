@@ -1,0 +1,424 @@
+    {
+        "staffNum": "2",
+        "staffName": "Jack",
+        "staffSex": "男",
+        "staffBirthday": "1990-9-23",
+        "staffID": "K123454523",
+        "staffPhone": "0911111111",
+        "staffMail": "bbb@gmail.com",
+        "staffAddress": "美國",
+        "staffPassword": "111111"
+    }
+
+    // index 原本
+
+    <template>
+  <div class="wrapper">
+    <div class="header">
+      <div class="banner">
+        <a class="logo">癌憂Away</a>
+      </div>
+    </div>
+    <div class="container">
+      <!--後臺三功能-->
+      <div class="container--buttons">
+        <div class="buttons--left">
+          <router-link :to="'/allStaffs'">
+            <div class="allStaffs"><a>所有人員</a></div>
+          </router-link>
+        </div>
+        <div class="buttons--right">
+          <router-link :to="'/addStaffs'">
+            <div class="addStaffs"><a>新增人員</a></div>
+          </router-link>
+          <router-link :to="'/addSchedules'">
+            <div class="addSchedules"><a>匯入班表</a></div>
+          </router-link>
+        </div>
+      </div>
+      <!--後臺三功能 <768-->
+      <div class="container--buttons--RWD">
+        <router-link :to="'/allStaffs'">
+          <div class="allStaffs"><a>所有人員</a></div>
+        </router-link>
+        <router-link :o="'/addStaffs'">
+          <div class="addStaffs"><a>新增人員</a></div>
+        </router-link>
+        <router-link :to="'/addSchedules'">
+          <div class="addSchedules"><a>匯入班表</a></div>
+        </router-link>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+@media screen and (min-width: 1201px) {
+  .container--buttons--RWD {
+    display: none;
+  }
+  .container--buttons {
+    padding: 40px 40px;
+    max-width: 1300px;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+
+  /* 左側功能 */
+  .buttons--left {
+    width: 100%;
+    max-width: 590px;
+    min-width: 545px;
+    height: 500px;
+    margin-right: 20px;
+  }
+
+  /* 左側功能 人員總覽 */
+  .allStaffs {
+    width: 100%;
+    max-width: 590px;
+    min-width: 545px;
+    height: 500px;
+    background-color: #ece9db;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .allStaffs:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+
+  /* 右側功能 */
+  .buttons--right {
+    width: 100%;
+    max-width: 590px;
+    min-width: 545px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  /* 新增人員 */
+  .addStaffs {
+    width: 100%;
+    max-width: 590px;
+    min-width: 545px;
+    height: 230px;
+    background-color: #dee1d4;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  /* 新增班表 */
+  .addSchedules {
+    width: 100%;
+    max-width: 590px;
+    min-width: 545px;
+    height: 230px;
+    background-color: #dbe4d6;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .addStaffs:hover,
+  .addSchedules:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container--buttons--RWD {
+    display: none;
+  }
+  .container--buttons {
+    padding: 40px 40px;
+    max-width: 1100px;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+
+  /* 左側功能 */
+  .buttons--left {
+    width: 100%;
+    max-width: 490px;
+    min-width: 440px;
+    height: 500px;
+    margin-right: 20px;
+  }
+
+  /* 左側功能 人員總覽 */
+  .allStaffs {
+    width: 100%;
+    max-width: 490px;
+    min-width: 440px;
+    height: 500px;
+    background-color: #ece9db;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .allStaffs:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+
+  /* 右側功能 */
+  .buttons--right {
+    width: 100%;
+    max-width: 490px;
+    min-width: 440px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  /* 新增人員 */
+  .addStaffs {
+    width: 100%;
+    max-width: 490px;
+    min-width: 440px;
+    height: 230px;
+    background-color: #dee1d4;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  /* 新增班表 */
+  .addSchedules {
+    width: 100%;
+    max-width: 490px;
+    min-width: 440px;
+    height: 230px;
+    background-color: #dbe4d6;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .addStaffs:hover,
+  .addSchedules:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container--buttons--RWD {
+    display: none;
+  }
+  .container--buttons {
+    padding: 40px 40px;
+    max-width: 900px;
+    min-width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+
+  /* 左側功能 */
+  .buttons--left {
+    width: 100%;
+    max-width: 420px;
+    min-width: 320px;
+    height: 500px;
+    margin-right: 20px;
+  }
+
+  /* 人員總覽 */
+  .allStaffs {
+    width: 100%;
+    max-width: 420px;
+    min-width: 320px;
+    height: 500px;
+    background-color: #ece9db;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .allStaffs:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+
+  /* 右側功能 */
+  .buttons--right {
+    width: 100%;
+    max-width: 420px;
+    min-width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  /* 新增人員 */
+  .addStaffs {
+    width: 100%;
+    max-width: 420px;
+    min-width: 320px;
+    height: 230px;
+    background-color: #dee1d4;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  /* 新增班表 */
+  .addSchedules {
+    width: 100%;
+    max-width: 420px;
+    min-width: 320px;
+    height: 230px;
+    background-color: #dbe4d6;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .addStaffs:hover,
+  .addSchedules:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .container--buttons {
+    display: none;
+  }
+
+  .container--buttons--RWD {
+    padding: 40px 40px;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+
+  /* 人員總覽 */
+  .allStaffs {
+    /* width: 100%; */
+    min-width: 500px;
+    height: 100px;
+    background-color: #ece9db;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  /* 新增人員 */
+  .addStaffs {
+    /* width: 100%; */
+    min-width: 500px;
+    height: 100px;
+    background-color: #dee1d4;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  /* 新增班表 */
+  .addSchedules {
+    /* width: 100%; */
+    min-width: 500px;
+    height: 100px;
+    background-color: #dbe4d6;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .allStaffs:hover,
+  .addStaffs:hover,
+  .addSchedules:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container--buttons {
+    display: none;
+  }
+
+  .container--buttons--RWD {
+    padding: 40px 40px;
+    min-width: 420px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+
+  /* 人員總覽 */
+  .allStaffs {
+    width: 370px;
+    height: 100px;
+    background-color: #ece9db;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  /* 新增人員 */
+  .addStaffs {
+    width: 370px;
+    height: 100px;
+    background-color: #dee1d4;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  /* 新增班表 */
+  .addSchedules {
+    width: 370px;
+    height: 100px;
+    background-color: #dbe4d6;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+
+  .allStaffs:hover,
+  .addStaffs:hover,
+  .addSchedules:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 9px rgba(58, 58, 58, 0.634);
+  }
+}
+</style>
+

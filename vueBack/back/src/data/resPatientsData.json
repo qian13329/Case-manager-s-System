@@ -1,0 +1,23 @@
+[
+    {
+        "staffNum":"10011",
+        "pNum": "12967",
+        "pName": "劉珍妮",
+        "pSex": "女",
+        "room": "N"
+    },
+    {
+        "staffNum":"10011",
+        "pNum": "12968",
+        "pName": "許微微",
+        "pSex": "女",
+        "room": "N"
+    },
+    {
+        "staffNum":"10012",
+        "pNum": "12969",
+        "pName": "金發財",
+        "pSex": "男",
+        "room": "N"
+    }
+]

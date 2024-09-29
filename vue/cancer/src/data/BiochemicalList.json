@@ -1,0 +1,38 @@
+[
+    {
+        "bId": "001",
+        "bName": "三酸甘油脂",
+        "bValue": "70",
+        "bUnit": "mg/dl"
+    },
+    {
+        "bId":"002",
+        "bName":"高密度脂蛋白",
+        "bValue":"60",
+        "bUnit":"mg/dl"
+    },
+    {
+        "bId":"003",
+        "bName":"腹部脂肪",
+        "bValue":"60",
+        "bUnit":":)"
+    },
+    {
+        "bId":"004",
+        "bName":"空腹血糖",
+        "bValue":"90",
+        "bUnit":"mg/dl"
+    },
+    {
+        "bId":"005",
+        "bName":"血清素運送基因- 5羥色胺",
+        "bValue":":))",
+        "bUnit":":))"
+    },
+    {
+        "bId":"006",
+        "bName":"維生素D",
+        "bValue":"40",
+        "bUnit":"ng/ml"
+    }
+]
